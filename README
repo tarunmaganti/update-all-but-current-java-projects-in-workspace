@@ -1,9 +1,10 @@
-How to use the script,
-
-Download the script and put it in the parent directory of your prooject i.e., your workspace.
-Give executable permissions.
-Run with a parameter with a substring of name of your current project. The substring must be unique, if it's not then all matching projects will not be pulled.
-Every project in workspace will be `mvn clean installed`.
+How to use the script:
+<ul>
+ <li>Download the script and put it in the parent directory of your prooject i.e., your workspace.
+ <li>Give executable permissions.
+ <li>Run with a parameter with a substring of name of your current project. The substring must be unique, if it's not then all matching projects will not be pulled.
+ <li>Every project in workspace will be `mvn clean installed`.
+</ul>
 
 Disclaimer: I'm not responsible if you don't understand and run the program with wrong substring and lose your current work due to the pull. I'm not responsible for any damage. You waive all your legal rights of suing for damages by using this script.
 
